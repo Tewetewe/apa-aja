@@ -23,4 +23,8 @@ class User extends Controller
         $namaBelakang ='Pratama';
         return view('test', compact('namaDepan','namaBelakang','id'));
     }
+
+    public function (){
+        return ('tets');
+    }
 }
